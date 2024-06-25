@@ -127,6 +127,9 @@ img {
   .home_data {
     margin-bottom: 200px;
   }
+  .home_img{
+    display: none;
+  }
 }
 
 .nav_items {
