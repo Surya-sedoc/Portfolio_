@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SURYA</title>
+    <link rel="icon" href="./img/logo.png" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <header class="header">
+      <nav class="nav bd_grid">
+        <div>
+          <a href="#" class="nav-logo">Surya_sedoC</a>
+        </div>
+
+        <div class="nav_menu" id="nav_menu">
+          <ul class="nav_list">
+            <li class="nav_items">
+              <a href="#home" class="nav_link active">Home</a>
+            </li>
+            <li class="nav_items">
+              <a href="#about" class="nav_link">About</a>
+            </li>
+            <li class="nav_items">
+              <a href="#skills" class="nav_link">Skills</a>
+            </li>
+            <li class="nav_items">
+              <a href="#work" class="nav_link">Projects</a>
+            </li>
+            <li class="nav_items">
+              <a href="#contact" class="nav_link">Contact</a>
+            </li>
+            <li class="nav_items"></li>
+          </ul>
+        </div>
+        <div class="nav_toggle" id="nav_toggle">
+          <i class="bx bx-menu-alt-right"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <section class="home bd_grid" id="home">
+        <div class="home_data" data-aos="fade-down">
+          <h1 class="home_title">
+            Hi, <br />I'm <span class="home_title-color">{{Surya Ramesh}}</span
+            ><br />Full Stack Developer
+          </h1>
+          <a
+            href="https://drive.google.com/file/d/1OlT137o-enZ2PLb2C9oLbXP0fiwgyaLC/view?usp=sharing"
+            target="_blank"
+            class="button"
+          >
+            Resume</a
+          >
+          <div class="home_social">
+            <a
+              href="https://github.com/Surya-sedoc"
+              class="home_icon"
+              target="_blank"
+              style="color: #181717"
+            >
+              <i class="bx bxl-github"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/surya-ramesh-6451062a6"
+              class="home_icon"
+              target="_blank"
+              style="color: #0077b5"
+            >
+              <i class="bx bxl-linkedin"></i>
+            </a>
+            <a
+              href="mailto:surya.prvt01@gmail.com"
+              class="home_icon"
+              style="color: #d14836"
+            >
+              <i class="bx bxl-gmail"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="home_img" data-aos="fade-down" data-aos-delay="200">
+          <img src="./img/home.svg" alt="home_image" />
+        </div>
+      </section>
+
+      <section class="about section" id="about">
+        <h2 class="section-title" data-aos="fade-down">About</h2>
+        <div class="about_container bd_grid">
+          <div class="about_img" data-aos="fade-down" data-aos-delay="250">
+            <img src="./img/profile.svg" alt="profile" />
+          </div>
+          <div>
+            <h2
+              class="about_subtitle"
+              data-aos="fade-down"
+              data-aos-delay="350"
+            >
+              I'm <span class="home_title-color">{{Surya Ramesh}}</span>,
+            </h2>
+            <p class="about_text" data-aos="fade-down" data-aos-delay="450">
+              An aspiring Java Full Stack Developer passionate about creating
+              dynamic and efficient web applications. With a strong foundation
+              in both front-end and back-end technologies, I am eager to apply
+              my skills to real-world projects and grow in web development.
+              <br /><br />On the back-end, I specialize in Java, Spring, and
+              Hibernate, developing robust server-side logic and building
+              scalable applications. I have experience with RESTful APIs,
+              authentication mechanisms, and performance optimization.
+              Additionally, I am proficient in Oracle SQL seamless data
+              management. <br /><br />
+              I am enthusiastic about continuous learning, staying updated with
+              industry trends, and ready to tackle new challenges in innovative
+              projects.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="skills section" id="skills">
+        <h2 class="section-title" data-aos="fade-down">Skills</h2>
+        <div class="skills_container bd_grid">
+          <div>
+            <h2
+              class="skills_subtitle"
+              data-aos="fade-down"
+              data-aos-delay="250"
+            >
+              Professional Skills
+            </h2>
+            <p class="skills_text" data-aos="fade-down" data-aos-delay="350">
+              The best way to escape from a problem is to solve it.
+            </p>
+            <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
+              <div class="skills_name">
+                <i class="bx bxl-java skill_icon" style="color: red"></i>
+                <span class="skill_name">Core Java</span>
+              </div>
+              <div class="skill_bar skill_java"></div>
+            </div>
+
+            <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
+              <div class="skills_name">
+                <i
+                  class="bx bxl-spring-boot skill_icon"
+                  style="color: #6db33f"
+                ></i>
+                <span class="skill_name">Spring-boot</span>
+              </div>
+              <div class="skill_bar skill_spring"></div>
+            </div>
+
+            <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
+              <div class="skills_name">
+                <i class="bx bxs-data skill_icon" style="color: #003b57"></i>
+                <span class="skill_name">SQL</span>
+              </div>
+              <div class="skill_bar skill_sql"></div>
+            </div>
+
+            <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
+              <div class="skills_name">
+                <i class="bx bxl-git skill_icon" style="color: #f05032"></i>
+                <span class="skill_name">git</span>
+              </div>
+              <div class="skill_bar skill_git"></div>
+            </div>
+
+            <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
+              <div class="skills_name">
+                <i class="bx bxl-github skill_icon" style="color: #181717"></i>
+                <span class="skill_name">github</span>
+              </div>
+              <div class="skill_bar skill_github"></div>
+            </div>
+
+            <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
+              <div class="skills_name">
+                <i
+                  class="bx bxl-javascript skill_icon"
+                  style="color: #f7df1e"
+                ></i>
+                <span class="skill_name">JavaScript</span>
+              </div>
+              <div class="skill_bar skill_js"></div>
+            </div>
+
+            <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
+              <div class="skills_name">
+                <i class="bx bxl-react skill_icon" style="color: #61dafb"></i>
+                <span class="skill_name">React.js</span>
+              </div>
+              <div class="skill_bar skill_rjs"></div>
+            </div>
+
+            <div class="skills_data" data-aos="fade-right">
+              <div class="skills_name">
+                <i class="bx bxl-html5 skill_icon" style="color: #e34f26"></i>
+                <span class="skill_name">Html5</span>
+              </div>
+              <div class="skill_bar skill_html"></div>
+            </div>
+
+            <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
+              <div class="skills_name">
+                <i class="bx bxl-css3 skill_icon" style="color: #1572b6"></i>
+                <span class="skill_name">CSS3</span>
+              </div>
+              <div class="skill_bar skill_css"></div>
+            </div>
+          </div>
+          <div class="skills_img" data-aos="fade-left" data-aos-delay="350">
+            <img src="./img/skill.svg" alt="skill_image" />
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="work section"
+        id="work"
+        data-aos="fade-down"
+        data-aos-delay="250"
+      >
+        <h2 class="section-title">Projects</h2>
+        <div class="work_container bd_grid">
+          <div class="work_img">
+            <a
+              href=" https://surya-sedoc.github.io/E_Commerce-frontend/"
+              target="_blank"
+            >
+              <img src="./img/ecommerce1.png" alt="e-commerce" />
+              <h4 style="color: black">
+                <span style="color: #4070f4">E-Commerce</span> Using React.js
+              </h4>
+            </a>
+          </div>
+          <div class="work_img">
+            <img src="./img/portfolio.png" alt="portfolio" />
+            <h4 style="color: black">
+              <span style="color: #4070f4">Portfolio</span> Using Html, CSS,
+              JavaScript
+            </h4>
+          </div>
+          <div class="work_img">
+            <a href="https://surya-sedoc.github.io/To-do_list/" target="_blank">
+              <img src="./img/To_do-list.png" alt="to-do_list" />
+              <h4 style="color: black">
+                <span style="color: #4070f4">To-Do_List</span> Using React.js
+              </h4>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact section" id="contact">
+        <h2 class="section-title" data-aos="fade-down">Contact</h2>
+        <div class="contact_container bd_grid">
+          <form
+            id="contact_form"
+            class="contact_form"
+            action="https://api.web3forms.com/submit"
+            method="POST"
+          >
+            <input
+              type="hidden"
+              name="access_key"
+              value="6abf40f3-a45b-46b3-8772-982e9b583714"
+            />
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Name"
+              class="control_input"
+              data-aos="fade-right"
+              data-aos-delay="200"
+              required
+            />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Email"
+              class="control_input"
+              data-aos="fade-right"
+              data-aos-delay="300"
+              required
+            />
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Write your message here..."
+              cols="0"
+              rows="10"
+              class="control_input"
+              data-aos="fade-right"
+              data-aos-delay="400"
+              required
+            ></textarea>
+            <input
+              type="submit"
+              value="Send"
+              class="control_button button"
+              data-aos="fade-right"
+            />
+          </form>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <p class="fotter_title">
+          Mail to:
+          <a href="mailto:surya.prvt01@gmail.com" style="color: #d14836">
+            surya.prvt01@gmail.com</a
+          >
+        </p>
+        <div class="footer_social">
+          <a href="https://github.com/Surya-sedoc" class="footer_icon">
+            <i class="bx bxl-github"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/surya-ramesh-6451062a6"
+            class="footer_icon"
+            style="color: #0077b5"
+          >
+            <i class="bx bxl-linkedin"></i>
+          </a>
+          <a
+            href="mailto:surya.prvt01@gmail.com"
+            class="footer_icon"
+            style="color: #d14836"
+          >
+            <i class="bx bxl-gmail"></i>
+          </a>
+        </div>
+        <p>&#169; 2024, Copyright. All rights reserved.</p>
+      </footer>
+    </main>
+
+    <script src="./js/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1200,
+        once: false,
+      });
+    </script>
+  </body>
+</html>
